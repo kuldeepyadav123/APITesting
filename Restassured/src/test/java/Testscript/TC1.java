@@ -23,7 +23,7 @@ public void testcase1() throws IOException
 	
 	    Random no = new Random();
 	    int rand = no.nextInt(1000);   
-	       
+	       System.out.println();
 		
 		JSONObject data= new JSONObject();
 		data.put("firstname", "kuldeep");

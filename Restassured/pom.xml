@@ -15,14 +15,16 @@
   </properties>
 
   <dependencies>
- <!-- https://mvnrepository.com/artifact/org.json.wso2/json -->
+
+	
+
 	
 	   <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
 	<dependency>
 	    <groupId>io.rest-assured</groupId>
 	    <artifactId>rest-assured</artifactId>
 	    <version>4.0.0</version>
-	    <scope>compile</scope>
+	    <scope>test</scope>
 	</dependency>
 	   <!-- https://mvnrepository.com/artifact/io.rest-assured/json-path -->
 	<dependency>
@@ -37,13 +39,12 @@
 	    <version>4.0.0</version>
 	</dependency>
 	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-<dependency>
-    <groupId>org.testng</groupId>
-    <artifactId>testng</artifactId>
-    <version>7.1.0</version>
-    <scope>test</scope>
-</dependency>
-	
+	<dependency>
+	    <groupId>org.testng</groupId>
+	    <artifactId>testng</artifactId>
+	    <version>6.14.3</version>
+	    <scope>test</scope>
+	</dependency>
 	<!-- https://mvnrepository.com/artifact/org.json/json -->
 	<dependency>
 	    <groupId>org.json</groupId>
@@ -136,6 +137,9 @@
 	    <version>1.5.0</version>
 	    <scope>test</scope>
 	</dependency>
+	
+	
+	  </dependencies>
 
-  </dependencies>
+
 </project>
